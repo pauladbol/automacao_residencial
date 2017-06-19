@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="teste"
+            android:id="@+id/luzCozinha"
+            android:background="@drawable/cozinha" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/luzDorm1"
+            android:background="@drawable/dorm1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/luzSala"
+            android:background="@drawable/sala" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/luzDorm2"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/dorm2" />
+    </LinearLayout>
+</LinearLayout>
